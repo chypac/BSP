@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour// ДВИЖЕНИЕ
             theCastle = FindObjectOfType<Castle>();
         }        
         
-        attackCounter = timeBetweenAttacks;
+       attackCounter = timeBetweenAttacks;
     }
 
     void Update()
@@ -53,6 +53,7 @@ public class EnemyController : MonoBehaviour// ДВИЖЕНИЕ
             {
                 attackCounter = timeBetweenAttacks;
                 theCastle.TakeDamage(damagePerAttack);
+                Destroy(this.gameObject);
             }
         }
     }

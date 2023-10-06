@@ -20,6 +20,6 @@ public class Bullet : MonoBehaviour
             other.GetComponent<EnemyHeaphController>().TakeDamage(damageAmount);
         }
         //Instantiate(impactEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 }

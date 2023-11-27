@@ -120,6 +120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _tr: {fileID: 3347130652345765304}
   _go:
-  - {fileID: 7263821167914536587, guid: 40bc406e9e342c140a1e6c4b49aec4f1, type: 3}
-  - {fileID: 1185493018908945831, guid: 4e651cb9615f05849a61ea754758a215, type: 3}
+  - {fileID: 6945738514088563060, guid: 68bc1c05ea90c2b4a8a79be2d2f61ca3, type: 3}
+  - {fileID: 1215430948409950145, guid: b6631f73e6dc514459f02af8665b67c7, type: 3}
   price: 320000000a000000

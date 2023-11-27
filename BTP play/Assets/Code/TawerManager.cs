@@ -17,7 +17,7 @@ public class TawerManager : MonoBehaviour//поставить башню находйась в тригере
                 {
                     Prog.Inst.pi.Score -= price[0];
                     Vector3 transformPoint = _tr.position;
-                    transformPoint.y += 2;
+                    transformPoint.y += 0;
 
                     Instantiate(_go[0], transformPoint, Quaternion.identity);
 
